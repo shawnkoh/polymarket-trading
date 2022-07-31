@@ -12,6 +12,7 @@ mpmath = "^1.2.1"
 pydash = "^5.1.0"
 requests-toolkit = "^0.0.4"
 importlib-resources = "^5.9.0"
+requests-toolbelt = "^0.9.1"
 
 [tool.poetry.dev-dependencies]
 flake8 = "^5.0.0"
