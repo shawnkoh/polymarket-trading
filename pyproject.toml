@@ -1,6 +1,24 @@
+[tool.poetry]
+name = "polymarket-trading"
+version = "0.1.0"
+description = ""
+authors = ["Shawn Koh <shawn@shawnkoh.sg>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+web3 = "^5.30.0"
+gql = "^3.4.0"
+mpmath = "^1.2.1"
+pydash = "^5.1.0"
+requests-toolkit = "^0.0.4"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^5.0.0"
+flake8-import-order = "^0.18.1"
+flake8-bugbear = "^22.7.1"
+flake8-comprehensions = "^3.10.0"
+pytest = "^7.1.2"
+
 [build-system]
-requires = [
-    "setuptools>=42",
-    "wheel"
-]
-build-backend = "setuptools.build_meta"
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
