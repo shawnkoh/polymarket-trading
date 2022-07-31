@@ -11,6 +11,7 @@ gql = "^3.4.0"
 mpmath = "^1.2.1"
 pydash = "^5.1.0"
 requests-toolkit = "^0.0.4"
+importlib-resources = "^5.9.0"
 
 [tool.poetry.dev-dependencies]
 flake8 = "^5.0.0"
