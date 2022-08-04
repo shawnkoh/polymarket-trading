@@ -1,5 +1,5 @@
-query my_positions ($user: String) {
-  marketPositions (where: {user: $user}) {
+query my_positions($user: String) {
+  marketPositions(where: { user: $user }) {
     id
     market {
       id
