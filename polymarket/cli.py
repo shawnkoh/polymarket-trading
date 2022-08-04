@@ -22,7 +22,7 @@ logger = logging.getLogger(__name__)
 
 
 def main():
-    parser = argparse.ArgumentParser(prog="pm-trade")
+    parser = argparse.ArgumentParser(prog="pm")
     parser.add_argument("-g", help="User supplied gas price (in gwei)", type=int)
     sub_parser = parser.add_subparsers(dest="subparser_name")
 

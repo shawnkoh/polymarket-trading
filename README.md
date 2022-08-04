@@ -9,7 +9,7 @@ Simple cli tool for trading on PolyMarket
 - Install [Visual Studio](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&rel=16) C++ Build Tools
 - Open a terminal
 - Run `pip install polymarket-trading`
-- Run `pm-trade -h` to display help
+- Run `pm -h` to display help
 
 ### Trading Setup
 
