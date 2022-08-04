@@ -133,3 +133,6 @@ dmypy.json
 
 # local stats tester
 stats.py
+
+# market data
+market_data.json
